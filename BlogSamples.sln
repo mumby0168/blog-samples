@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget-packages", "nuget-packages", "{B24F5E47-DAAD-4CEB-95E8-99D25A1B235A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Extensions.DependencyInjection.Sample", "nuget-packages\Microsoft.Extensions.DependencyInjection.Sample\Microsoft.Extensions.DependencyInjection.Sample.csproj", "{D2433721-7E2A-4DC7-BD77-C62F0F966B13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api-design", "api-design", "{86D14555-3F0D-4CF9-BE1D-FDED82E4D024}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentAccountApi.Sample", "FluentAccountApi.Sample\FluentAccountApi.Sample.csproj", "{1B8E581D-3AAE-4A01-9709-C9ACDE206D7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2433721-7E2A-4DC7-BD77-C62F0F966B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2433721-7E2A-4DC7-BD77-C62F0F966B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2433721-7E2A-4DC7-BD77-C62F0F966B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2433721-7E2A-4DC7-BD77-C62F0F966B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B8E581D-3AAE-4A01-9709-C9ACDE206D7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B8E581D-3AAE-4A01-9709-C9ACDE206D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B8E581D-3AAE-4A01-9709-C9ACDE206D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B8E581D-3AAE-4A01-9709-C9ACDE206D7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D2433721-7E2A-4DC7-BD77-C62F0F966B13} = {B24F5E47-DAAD-4CEB-95E8-99D25A1B235A}
+		{1B8E581D-3AAE-4A01-9709-C9ACDE206D7F} = {86D14555-3F0D-4CF9-BE1D-FDED82E4D024}
+	EndGlobalSection
+EndGlobal
